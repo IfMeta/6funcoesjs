@@ -1,0 +1,134 @@
+body {
+    background-color: #c2d9f8e8;
+}
+
+@font-face {
+    font-family: "cleb";
+    src: url(dancing_script/dancingscript-VariableFont_wght.ttf);   
+}
+
+header {
+    background-color:rgb(10, 47, 68);    
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-size: 120%;
+}
+
+.tudo, .direitinha, .img-req, .topi-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direitinha {
+    flex-direction: column;
+    margin: 10px;
+}
+
+.img-req {
+    gap: 20px;
+}
+
+.sinopse {
+    height: 30%;
+    width: 30%;
+    float:left;
+    margin: 1%;
+    background: rgb(21, 167, 159);
+    color: #000000;
+    padding: 20px;
+    border: 5px solid rgb(10, 47, 68); 
+}
+
+.capaimg {
+    width: 700px;
+    height: 410px;
+    background: rgb(21, 167, 159);
+    color: #FFF;
+    padding: 20px;
+    border: 5px solid rgb(10, 47, 68); 
+}
+
+.sinopse h2 {
+    font-family: cleb;
+    font-size: 175%;
+    text-align: center;
+}
+
+.sinopse h1 {
+    font-family: cleb;
+    font-size: 225%;
+    text-align: center;
+}
+
+.topicos {
+   
+    background: rgb(21, 167, 159);
+    color: #000000;
+    padding: 20px;
+    border: 5px solid rgb(10, 47, 68);
+    float: left;
+    margin: 1%;
+    font-family: cleb;
+    font-size: 135%;
+}
+
+.topicos li {
+    font-size: 120%;
+}
+
+.topicos h1 {
+    text-align: center;
+}
+
+.linkpb {
+   
+    background: rgb(21, 167, 159);
+    color: #000000;
+    padding: 20px;
+    border: 5px solid rgb(10, 47, 68);
+    float: left;
+    margin: 1%;
+    top: 77.5%;
+    left: 68%;
+    font-size: 113%;
+}
+
+.linkpb h1{
+    text-align: center;
+    font-family: cleb;
+}
+
+.linkpb h2{
+    text-align: center;
+    font-size: 200%;
+    font-family: cleb;
+}
+
+.linkpb a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.prarodar {
+    font-size: 98.1%;
+    font-family: cleb;
+    background: rgb(21, 167, 159);
+    color: #000000;
+    border: 5px solid rgb(10, 47, 68);
+    padding: 20px;
+}
+
+.prarodar li {
+    font-size: 135%;  
+}
+
+footer {
+    background-color:rgb(10, 47, 68);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    width:99.5%;
+}
